@@ -88,7 +88,7 @@ alias yt2mp3="youtube-dl -x --audio-format mp3 --audio-quality 0 $1"
 
 alias connect2vpn="/home/z0rk/.ovpn/connect.sh"
 
-alias restart-xfce="xfce4-panel --restart"
+alias reload-xfce="xfce4-panel --restart"
 
 echo "
   ___        __             __                         __ 
