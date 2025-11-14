@@ -104,3 +104,8 @@ df -h / | awk 'NR==1 {print $2, $3, $4, $5} NR==2 {print $2, $3, $4, $5}' && ech
 
 # For cursor-agent & claude code
 export PATH="$HOME/.local/bin:$HOME/.npm-global/bin:$PATH"
+
+# For pyenv (curl https://pyenv.run | bash)
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
